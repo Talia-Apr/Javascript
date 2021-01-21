@@ -1,0 +1,21 @@
+[
+    { 
+        "idmenu" : 28, 
+        "idkategori" : 31,  
+        "menu" : "Apel", 
+        "harga" : 17000,
+        "varian" : ["merah", "hijau", "oren"],
+        "stok" : true,
+        "keterangan" : null
+    },
+
+    { 
+        "idmenu" : 46, 
+        "idkategori" : 29,  
+        "menu" : "Ayam Bakar", 
+        "harga" : 10000,
+        "varian" : ["pedas", "sedang", "tidak pedas"],
+        "stok" : false,
+        "keterangan" : null
+    }
+]

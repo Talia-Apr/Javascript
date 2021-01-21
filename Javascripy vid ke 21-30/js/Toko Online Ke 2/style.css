@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  margin: 2%;
+}
+
+.logo img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.nav-left,
+.nav-right {
+  margin-left: 1%;
+  background-color: rosybrown;
+}
+
+.nav-left ul,
+.nav-right ul {
+  list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-family: serif;
+  color: rgb(85, 85, 85);
+  font-size: 20px;
+}
+
+.nav-left a:hover {
+  background-color: rgb(211, 174, 174);
+}
+
+.nav-right a:hover {
+  background-color: rgb(211, 174, 174);
+}
+
+@media screen and (min-width: 560px) {
+  .header {
+    width: 960px;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-left ul {
+    display: flex;
+  }
+
+  .nav-right ul {
+    display: flex;
+  }
+
+  .nav-left,
+  .nav-right {
+    background: none;
+  }
+
+  .nav-left a,
+  .nav-right a {
+    color: rgb(85, 85, 85);
+  }
+}
+
+/* main */
+
+.main {
+  margin-top: 20px;
+}
+
+.main-left img {
+  width: 350px;
+  margin: auto;
+  display: block;
+}
+
+.main-right {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-right h2 {
+  font-size: 40px;
+  color: rgb(126, 79, 79);
+  font-family: cambria;
+}
+
+.main-right p {
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(75, 37, 37);
+}
+
+.price h2 {
+  margin-top: 20px;
+  border: 2px solid rgb(128, 77, 77);
+}
+
+@media (min-width: 560px) {
+  .main {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .main-left img {
+    width: 500px;
+  }
+
+  .main-right {
+    margin: auto;
+    margin-left: 10px;
+  }
+
+  .main-right h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria;
+  }
+}
+
+/* produk */
+
+.display {
+  margin-top: 250px;
+  margin-bottom: 1%;
+  text-align: center;
+  align-items: center;
+}
+
+.display h2 {
+  color: rgb(124, 69, 69);
+}
+
+.image img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.tittle h2 {
+  font-size: 30px;
+  color: rosybrown;
+  font-family: cambria;
+  margin-bottom: 10px;
+}
+
+.produk-content {
+  text-align: center;
+  margin: 20px;
+}
+
+.deskripsi p {
+  font-size: 15px;
+  font-family: helvetica;
+  color: rgb(94, 61, 61);
+}
+
+.harga h3 {
+  text-decoration: line-through;
+  color: rosybrown;
+  font-size: 15px;
+}
+
+.harga h2 {
+  font-size: 20px;
+  color: rgb(112, 70, 70);
+}
+
+@media (min-width: 560px) {
+  .produk {
+    width: 960px;
+    margin: auto;
+    display: flex;
+  }
+
+  .produk-content {
+    height: 300px;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .image img {
+    width: 200px;
+    display: block;
+  }
+
+  .display {
+    font-size: 30px;
+  }
+}
+
+/* Informasi */
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-content {
+  height: 70px;
+  width: 180px;
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.info-isi h2 {
+  font-size: 15px;
+  padding: 7px;
+}
+
+.info-isi p {
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+.icon img {
+  width: 70px;
+  padding: 7px;
+}
+
+@media (min-width: 560px) {
+  .info {
+    width: 960px;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+  }
+}
+
+/* medsos */
+
+.medsos-isi {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: rosybrown;
+}
+
+.medsos-isi p {
+  font-family: serif;
+}
+
+.medsos-form {
+  height: 50px;
+  background-color: rgb(223, 175, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.medsos-form form input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.medsos-form form input[type="email"] {
+  padding: 10px;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.medsos-form form button {
+  height: 30px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.medsos-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.medsos-icon img {
+  width: 50px;
+  margin: 20px;
+}
+
+@media (min-width: 560px) {
+  .medsos {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: -5px;
+  margin-bottom: 150px;
+  display: flex;
+  background-color: rgb(223, 175, 175);
+}
+
+.logo-bank img {
+  width: 70px;
+}
+
+.identitas {
+  flex: 1;
+}
+
+.identitas h2 {
+  color: rgb(255, 236, 236);
+  margin: 10px;
+}
+
+.identitas p {
+  color: rgb(255, 236, 236);
+  margin: 10px;
+}
+
+.sitemap {
+  flex: 1;
+}
+
+.sitemap h2 {
+  color: rgb(255, 236, 236);
+  margin: 10px;
+}
+
+.sitemap li {
+  list-style: none;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.sitemap li a {
+  text-decoration: none;
+}
+
+.payment {
+  flex: 1;
+}
+
+.sitemap h2,
+.identitas h2 {
+  font-size: 17px;
+}
+
+.identitas p {
+  font-size: 15px;
+}
+
+.sitemap a {
+  font-size: 15px;
+}
+
+.logo-bank img {
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.bank {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: rgb(255, 234, 234);
+}
+
+.bank p {
+  font-size: 10px;
+}
+
+.bank h3 {
+  font-size: 15px;
+}
