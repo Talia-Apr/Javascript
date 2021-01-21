@@ -50,5 +50,5 @@ let nama = ["Hani", "Lula", "Judi", "Danu"];
 
 // console.log(nilai);
 
-// niali.filter((a) => (a.ipa > 47 && a.matematika > 60 ? console.log(a.nama) : null));
+// nilai.filter((a) => (a.ipa > 47 && a.matematika > 60 ? console.log(a.nama) : null));
 
